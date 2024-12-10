@@ -1,0 +1,17 @@
+/* App.css */
+body, html {
+  height: 100%; /* Ensure the page height fills the viewport */
+  margin: 0; /* Remove default spacing */
+}
+
+#root {
+  height: 100%; /* The React app container also needs to stretch */
+  display: grid;
+  grid-template-rows: auto 1fr auto; /* Header (auto), Content (flexible), Footer (auto) */
+}
+
+.App {
+  display: grid;
+  grid-template-rows: auto 1fr auto; /* Repeat for safety */
+}
+

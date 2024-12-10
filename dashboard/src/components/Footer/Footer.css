@@ -1,0 +1,26 @@
+@import url('https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css');
+
+
+.footer {
+  display: flex;
+  position: relative;
+  z-index: 1;
+  padding: 5px;
+  margin-top: -5px;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  color: #f9fccc;
+  background-color: #e00000;
+}
+
+.icons-footer i{
+  font-size: 1.4rem;
+  margin-right: 0.6rem;
+  color: #f9fccc;
+  
+}
+
+
+
+
