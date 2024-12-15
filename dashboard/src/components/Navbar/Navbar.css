@@ -27,7 +27,7 @@ body {
   background-color: #f3f99a;
   color: #e00000;
   font-weight: 700;
-  font-size: 17px;
+  font-size: 15px;
 }
 
 .navbar {
@@ -47,7 +47,7 @@ body {
 
 .navList a {
   position: relative;
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 500;
   margin-left: 40px;
   transition: 0.5s;
@@ -62,13 +62,13 @@ body {
 }
 
 .madre {
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 700;
   font-family: "Kaushan Script", cursive;
 }
 
 .mexicanRes {
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .header a {

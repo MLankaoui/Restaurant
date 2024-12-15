@@ -8,13 +8,13 @@ const Home = () => {
       
 
       <img src={home} alt="" className='home-img'/>
-      <div className='wrapper'>
+      <div className='home-wrapper'>
         <span className='order-online'><a href="/">Order <br /> Online</a></span>
-        <h1>Madre</h1>
-        <h3>MEXICAN CUISINE</h3>
+        <h1 className='home-h1'>Madre</h1>
+        <h3 className='home-h3'>MEXICAN CUISINE</h3>
         <div>
-          <button className='menu-btn'>View Menu</button>
-          <button className='reser-btn'>Reservation</button>
+          <button className='menu-btn home-btn'>View Menu</button>
+          <button className='reser-btn home-btn'>Reservation</button>
         </div>
       </div>
       
