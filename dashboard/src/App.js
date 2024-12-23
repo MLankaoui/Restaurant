@@ -3,6 +3,7 @@ import './App.css';
 import Home from './pages/Home/Home';
 import Story from './pages/Story/Story';
 import Menu from './pages/Menu/Menu';
+import Order from './pages/Order/Order';
 import { Navbar, Footer } from './components';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Preloader from './components/Preloader/Preloader';
@@ -32,6 +33,7 @@ const App = () => {
               <Route path="/home" element={<Home />} />
               <Route path="/our-story" element={<Story />} />
               <Route path='/menu' element={<Menu />} />
+              <Route path='/order-online' element={<Order />} />
             </Routes>
           )}
         </div>

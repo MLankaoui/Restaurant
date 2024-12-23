@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css';
 import home from '../../assets/homee.jpg';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return(
@@ -13,7 +14,7 @@ const Home = () => {
         <h1 className='home-h1'>Madre</h1>
         <h3 className='home-h3'>MEXICAN CUISINE</h3>
         <div>
-          <button className='menu-btn home-btn'>View Menu</button>
+          <Link to='/menu'><button className='menu-btn home-btn'>View Menu</button></Link>
           <button className='reser-btn home-btn'>Reservation</button>
         </div>
       </div>
