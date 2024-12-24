@@ -22,5 +22,43 @@
 }
 
 
+@media screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column; /* Stack the items vertically */
+    text-align: center; /* Center-align text */
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+
+  .icons-footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px; /* Add space between social icons on small screens */
+  }
+
+  .icons-footer i {
+    font-size: 1.2rem; /* Decrease icon size for smaller screens */
+    margin-right: 0.3rem; /* Reduce spacing between icons */
+  }
+}
+
+
+@media screen and (min-width: 769px) {
+  .footer {
+    flex-direction: row; /* Keep items horizontally aligned for larger screens */
+    justify-content: space-around; /* Maintain spacing on larger screens */
+  }
+
+  .icons-footer {
+    display: flex;
+    justify-content: flex-start; /* Keep icons aligned to the left */
+  }
+
+  .icons-footer i {
+    font-size: 1.4rem; /* Maintain icon size for larger screens */
+    margin-right: 0.6rem; /* Maintain spacing between icons */
+  }
+}
+
+
 
 
