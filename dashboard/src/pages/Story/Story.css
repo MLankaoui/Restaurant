@@ -22,11 +22,12 @@
 
 .box1{
   position: absolute;
-  top: 17%;
+  top: 19%;
   right: 13%;
-  width: 31%;
-  height: 24%;
-  padding: 30px 40px; 
+  width: 31.75%;
+  height: 21%;
+  padding: 35px 35px; 
+
   background-color: white;
   align-content: center;
   color: #e00000;
@@ -114,6 +115,62 @@
   color: #f9fccc;
   border: 1px solid #f9fccc;
 }
+
+
+
+@media screen and (max-width: 768px) {
+  .story-wrapper{
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .story-h1 {
+    font-size: 30px; /* Adjusting font size for smaller screens */
+  }
+
+  .box1 {
+    top: 4%; /* Adjusting position to ensure it's centered on smaller screens */
+    left: 5.8%;
+    width: 80%;
+    
+  }
+
+
+
+  .section2 {
+    flex-direction: column; /* Stack on smaller screens */
+    align-items: center; /* Center align on small screens */
+  }
+
+  .box2 {
+    width: 80%; /* Full width for smaller screens */
+     /* Reducing padding for mobile/tablets */
+  }
+
+  .story-img3 {
+    width: 88.5%; /* Full width for small screens */
+    height: auto;
+  }
+
+  .section3 {
+    width: 100%; /* Full width on smaller screens */
+    padding: 70px 15px;
+    left: 0;
+    font-size: 50px;
+  }
+
+  .story-btn {
+    font-size: 14px; /* Adjust font size of buttons for smaller screens */
+    padding: 10px 30px; /* Adjust padding for smaller buttons */
+  }
+
+  .wrapper-2sections{
+    margin: 0;
+
+  }
+}
+
+
 
 
 

@@ -8,6 +8,7 @@ import { Navbar, Footer } from './components';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Preloader from './components/Preloader/Preloader';
 import { useState, useEffect } from 'react';
+import Catering from './pages/Catering/Catering';
 
 const App = () => {
 
@@ -34,6 +35,7 @@ const App = () => {
               <Route path="/our-story" element={<Story />} />
               <Route path='/menu' element={<Menu />} />
               <Route path='/order-online' element={<Order />} />
+              <Route path='/catering' element={<Catering />} />
             </Routes>
           )}
         </div>
