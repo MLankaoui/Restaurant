@@ -54,7 +54,7 @@ const Order = () => {
   return (
     <div>
       <div>
-        <img src={order} alt="order-img" />
+        <img src={order} alt="order-img" className='order-img'/>
         <div className="order-wrapper">
           <div className='order-box'>
             <h2>Order Online</h2>

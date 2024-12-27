@@ -1,0 +1,49 @@
+@import url('https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css');
+
+
+
+.footer {
+  background-color: #bab9b6;
+  color: black;
+  font-family: "Mukta Malar", serif;
+  font-weight: 400;
+  width: 100%;
+  position: relative; /* Ensure the footer does not overlap */
+  bottom: 0; /* Stick the footer to the bottom if necessary */
+}
+
+.nav-brand{
+  font-size: 90px;
+  padding: 0;
+  margin: 0;
+  
+}
+
+.icon-brand{
+  width: 90px;
+  height: 90px;
+  margin-bottom: 20%;
+}
+
+.sub-brand{
+  font-size: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+.address, .cr{
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.list-unstyled{
+  cursor: pointer;
+}
+
+@media (min-width: 800px){
+  .section2{
+    margin-top: 250px;
+   
+  }
+
+}
