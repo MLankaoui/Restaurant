@@ -25,7 +25,7 @@ function Navbar() {
           tabIndex="-1"
           id="offcanvasNavbar"
           aria-labelledby="offcanvasNavbarLabel"
-          style={{ width: '100vw', height: '100vh', position: 'fixed' }}
+          style={{ width: '100vw', height: 'auto', position: 'fixed' }}
         >
           <div className="offcanvas-header justify-content-end">
             <button

@@ -37,6 +37,8 @@
 
 
 
+
+
 @media (max-width: 768px) { /* Small screens (phones) */
   .offcanvas {
     width: 100vw;
@@ -46,7 +48,7 @@
 
   .navbar-brand{
     font-size: 50px;
-    padding: 10px;
+    padding-left: 20px;
     
   }
 
@@ -55,17 +57,21 @@
   }
 }
 
+
+
 @media (min-width: 800px){
   .nav-link {
     padding: 0; /* Remove padding from links */
-    
     text-align: end; 
     font-size: 18px;
     line-height: 20px;
   }
 
   .navbar-nav{
-    padding: 30px 50px;
+    
+    position: relative;
+    top: 30px;
+    right: 50px;
   }
 
   .navbar-brand{

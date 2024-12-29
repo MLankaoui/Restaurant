@@ -9,13 +9,20 @@
   font-weight: 400;
   width: 100%;
   position: relative; /* Ensure the footer does not overlap */
-  bottom: 0; /* Stick the footer to the bottom if necessary */
+  bottom: 0;
+  padding-bottom: 50px;
+  padding-top: 50px;
+
+  
+  
+  
 }
 
 .nav-brand{
   font-size: 90px;
   padding: 0;
   margin: 0;
+  line-height: 55px;
   
 }
 
@@ -29,6 +36,7 @@
   font-size: 30px;
   padding: 0;
   margin: 0;
+ 
 }
 
 .address, .cr{
@@ -36,13 +44,39 @@
   line-height: 20px;
 }
 
-.list-unstyled{
+.list-unstyled a{
   cursor: pointer;
+  color: black !important;
+  font-size: 30px;
+ 
+  
+  
 }
+
+.list-unstyled a:hover{
+  color: #414136 !important;
+}
+
+
+/* Ensure the row uses Flexbox for alignment */
+
+
+
+
+
+
+.section2{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+
 
 @media (min-width: 800px){
   .section2{
-    margin-top: 250px;
+    margin-top: 220px;
+    
    
   }
 
