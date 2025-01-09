@@ -8,14 +8,17 @@
 .navbar{
   font-family:  "Mukta Malar", serif;
   background-color: #F8F6F3 !important;
+  
 }
 
 .navbar-brand {
-  font-size: 110px;
+  font-size: 95px ;
   font-weight: 400;
   padding-left: 40px;
-  
+  font-family: "Roboto", serif;
   text-align: start;
+ 
+  
 }
 
 .nav-link:hover {
@@ -55,6 +58,12 @@
   .navbar-brand > span {
     font-family: "italic";
   }
+
+  .icon-brand-nav{
+    width: 90px;
+  height: 90px;
+  margin-bottom: 5%;
+  }
 }
 
 
@@ -75,11 +84,17 @@
   }
 
   .navbar-brand{
-    font-size: 110px;
+    font-size: 90px;
     margin: -8px 0;
    
 
   }
+
+  .icon-brand-nav{
+    display: none;
+  }
+
+  
 
   
 

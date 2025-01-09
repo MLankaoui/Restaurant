@@ -26,7 +26,7 @@ function Footer() {
               </svg>
               <p className="sub-brand mb-0">BRASSERIE & BAR</p>
               <p className="nav-brand mb-0">
-                NOCTU<span style={{ fontFamily: "Cinzel" }}>R</span>NE
+              AMB<span style={{ fontFamily: "Quicksand, serif", fontWeight: "400"}}>R</span>OSIA
               </p>
             </div>
 
@@ -39,22 +39,22 @@ function Footer() {
               <ul className="list-unstyled text-end">
                 <li>
                   <Link to="/" className="text-decoration-none">
-                    YOUTUBE
+                    Youtube
                   </Link>
                 </li>
                 <li>
-                  <Link to="/menu" className="text-decoration-none">
-                    INSTAGRAM
+                  <Link to="/" className="text-decoration-none">
+                    Instagram
                   </Link>
                 </li>
                 <li>
-                  <Link to="/about" className="text-decoration-none">
-                    FACEBOOK
+                  <Link to="/" className="text-decoration-none">
+                    Facebook
                   </Link>
                 </li>
                 <li>
-                  <Link to="/contact" className="text-decoration-none">
-                    LINKEDIN
+                  <Link to="/" className="text-decoration-none">
+                    Linkedin
                   </Link>
                 </li>
                 
@@ -65,11 +65,9 @@ function Footer() {
 
         {/* Copyright */}
         <div
-          className="text-center p-3"
-          
+          className="cr text-center p-3"  
         >
-          © 2020 Copyright
-          Fatima Hailou
+          © {new Date().getFullYear()} by Fatima Hailou
         </div>
         {/* Copyright */}
       </footer>

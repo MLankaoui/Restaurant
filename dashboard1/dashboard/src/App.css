@@ -5,6 +5,7 @@ body, html {
   margin: 0;
   font-family:  "Mukta Malar", serif;
   background-color: #F8F6F3;
+  scroll-behavior: smooth;
   
 }
 

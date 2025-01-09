@@ -1,11 +1,11 @@
 import React from 'react';
 import './Preloader.css';
-import animation from '../../assets/Animation.gif'; 
+import animation from '../../assets/Animation2.gif'; 
 const Preloader = () => {
   return (
     <div className='preloader'>
-      <h1 className='load-title'>Madre</h1>
-      <p className='load-p'>Mexican Restaurant</p>
+      <h1 className='load-title'>AMB<span style={{ fontFamily: "Quicksand, serif", fontWeight: "400"}}>R</span>OSIA</h1>
+      
       <img src={animation} alt="animation-gif" />
       
       

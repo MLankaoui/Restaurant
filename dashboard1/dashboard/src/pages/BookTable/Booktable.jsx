@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import DatePicker from 'react-datepicker';
 import "react-datepicker/dist/react-datepicker.css"; // Only if using react-datepicker
 import './BookTable.css';
+import Swal from 'sweetalert2';
 
 const BookTable = () => {
   const [guestCount, setGuestCount] = useState(2);
@@ -10,15 +11,20 @@ const BookTable = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    
+    // Assuming your form validation is successful
     console.log({
       guestCount,
       selectedDate: selectedDate.toLocaleDateString(),
       selectedTime,
     });
-    alert(`Booking Confirmed! 
-    Guests: ${guestCount}
-    Date: ${selectedDate.toLocaleDateString()}
-    Time: ${selectedTime}`);
+  
+    Swal.fire({
+      title: "Booking Confirmed!",
+      text: `Guests: ${guestCount}\nDate: ${selectedDate.toLocaleDateString()}\nTime: ${selectedTime}`,
+      icon: "success",
+      confirmButtonText: "OK",
+    });
   };
 
   return (
